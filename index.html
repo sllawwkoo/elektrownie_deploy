@@ -28,11 +28,11 @@
 			</div>
 			<nav class="header__menu menu">
 				<ul class="menu__list">
-					<li class="menu__item"><a href="#" class="menu__link">O projekcie</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">O spółce</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Opinie</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Dla inwestorów</a></li>
-					<li class="menu__item"><a href="#" class="menu__link">Jak zacząć?</a></li>
+					<li class="menu__item"><a href="#anchor-copmpany" class="menu__link">O projekcie</a></li>
+					<li class="menu__item"><a href="#anchor-project" class="menu__link">O spółce</a></li>
+					<li class="menu__item"><a href="#anchor-slider" class="menu__link">Opinie</a></li>
+					<li class="menu__item"><a href="#anchor-range" class="menu__link">Dla inwestorów</a></li>
+					<li class="menu__item"><a href="#anchor-earn" class="menu__link">Jak zacząć?</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -46,23 +46,21 @@
 	<div class="info__container">
 		<div class="info__body">
 			<div class="info__forma">
-				<form id="forma" class="forma" action="">
+				<form id="forma" class="forma" action="#">
 					<h2 class="forma__title">Zarejestruj się</h2>
-					<label for="" class="forma__name">
-						<input type="text" name="name" id="name" placeholder="Imię">
-					</label>
-					<label for="" class="forma__surname">
-						<input type="text" name="surname" id="surname" placeholder="Nazwisko">
-					</label>
-					<label for="" class="forma__email">
-						<input type="email" name="email" id="email" placeholder="E-mail">
-					</label>
-					<label for="" class="forma__phone">
-						<input type="tel" name="phone" id="phone">
-					</label>
-					<label for="" class="forma__btn">
-						<input type="submit" value="zarejestruj się">
-					</label>
+					<div class="forma__name">
+						<input class="input" type="text" name="name" id="name" placeholder="Imię" autocomplete="off">
+					</div>
+					<div class="forma__surname">
+						<input class="input" type="text" name="surname" id="surname" placeholder="Nazwisko">
+					</div>
+					<div class="forma__email">
+						<input class="input" type="email" name="email" id="email" placeholder="E-mail" autocomplete="off">
+					</div>
+					<div class="forma__phone" id="forma__phone">
+						<input class="input" type="tel" name="phone" id="phone">
+					</div> 
+					<button class="forma__btn" type='submit' >zarejestruj się</button>
 					<div class="forma__fon1 fon--ibg">
 						<img src="img/info/fon_1.png" alt="Fon1">
 					</div>
@@ -89,7 +87,7 @@
 		</div>
 	</div>
 </section>
-			<section class="page__company company">
+			<section class="page__company company" id="anchor-copmpany">
 	<div class="company__container">
 		<div class="company__body">
 			<h2 class="company__title"><span>O projekcie</span></h2>
@@ -113,7 +111,7 @@
 		</div>
 	</div>
 </section>
-			<section class="page__project project">
+			<section class="page__project project" id="anchor-project">
 	<div class="project__container">
 		<div class="project__body">
 			<h2 class="project__title"><span>O spółce</span></h2>
@@ -135,7 +133,7 @@
 		</div>
 	</div>
 </section>
-			<section class="page__swiper">
+			<section class="page__swiper" id="anchor-slider">
 	<div class="swiper">
 		<!-- Additional required wrapper -->
 		<div class="swiper__body swiper-wrapper">
@@ -217,7 +215,7 @@
 		<!-- <div class="swiper-scrollbar"></div> -->
 </div>
 </section>
-			<section class="page__range range">
+			<section class="page__range range" id="anchor-range">
 	<div class="range__container">
 		<div class="range__body">
 			<h2 class="range__title">ile będę zarabiał?</h2>
@@ -235,7 +233,7 @@
 		</div>
 	</div>
 </section>
-			<section class="page__earning earning">
+			<section class="page__earning earning" id="anchor-earn">
 	<div class="earning__container">
 		<div class="earning__body">
 			<div class="earning__desription description">
@@ -273,7 +271,7 @@
 				</h2>
 				<div class="answers__info">
 					<p>1.Wypełnij formularz rejestracyjy na tej stronie.</p>
-					<p>2.Odbierz telefon od naszego menedżera, aby potwierdzić 		rejestrację i dalszą pracę na platformie.
+					<p>2.Odbierz telefon od naszego menedżera, aby potwierdzić rejestrację i dalszą pracę na platformie.
 					</p>
 					<p>3.Zarabiaj pasywnie co miesiąc dzięki inwestycji w wysokości 1100 złotych, gdy rozpoczniesz współpracę z naszym projektem
 					</p>
@@ -287,21 +285,19 @@
 		<div class="form__body">
 			<form  id="form" class="form" action="">
 				<h2 class="form__title">Zarejestruj się</h2>
-				<label for="" class="form__name">
-					<input type="text" name="name" id="name2" placeholder="Imię">
-				</label>
-				<label for="" class="form__surname">
-					<input type="text" name="surname" id="surname2" placeholder="Nazwisko">
-				</label>
-				<label for="" class="form__email">
-					<input type="email" name="email" id="email2" placeholder="E-mail">
-				</label>
-				<label for="" class="form__phone">
-					<input type="tel" name="phone" id="phone2">
-				</label>
-				<label for="" class="form__btn">
-					<input type="submit" value="zarejestruj się">
-				</label>
+				<div class="form__name">
+					<input class="input2" type="text" name="name2" id="name2" placeholder="Imię" autocomplete="off">
+				</div>
+				<div class="form__surname">
+					<input class="input2" type="text" name="surname2" id="surname2" placeholder="Nazwisko">
+				</div>
+				<div class="form__email">
+					<input class="input2" type="email" name="email2" id="email2" placeholder="E-mail" autocomplete="off">
+				</div>
+				<div class="form__phone" id="form__phone">
+					<input class="input2" type="tel" name="phone2" id="phone2">
+				</div>
+				<button class="form__btn" type='submit' >zarejestruj się</button>
 				<div class="form__fon1 fon--ibg">
 					<img src="img/info/fon_1.png" alt="Fon1">
 				</div>
@@ -350,6 +346,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
 	<script src="js/app.min.js"></script>
+	
 </body>
 
 </html>
